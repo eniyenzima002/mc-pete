@@ -23,9 +23,6 @@
 }
 
 @media (max-width: 640px) {
-  footer {
-    text-align: left;
-  }
   .fLists {
     height: 100%;
     width: 30%;
@@ -40,8 +37,7 @@
   .fList {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
   }
 }
