@@ -28,3 +28,11 @@
   font-size: 14px;
   font-weight: 300;
 }
+
+@media (max-width: 640px) {
+  .pList {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+}

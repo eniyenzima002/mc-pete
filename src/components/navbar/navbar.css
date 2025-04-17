@@ -30,3 +30,13 @@
   color: #003580;
   border-radius: 7px;
 }
+
+@media (max-width: 640px) {
+  .logo {
+    font-size: 12px;
+  }
+
+  .navButton {
+    margin-left: 10px;
+  }
+}

@@ -28,3 +28,16 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 640px) {
+  .mail {
+    width: 95%;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px auto;
+  }
+
+  .mailInputContainer>input{ 
+    width: 200px;
+  }
+}
